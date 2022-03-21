@@ -1,0 +1,49 @@
+$primary_1: #a2b9bc;
+$primary_2: #b2ad7f;
+$primary_3: #878f99;
+$myFont: Helvetica, sans-serif;
+$myColor: white;
+$myFontSize: 18px;
+$myWidth: 680px;
+body {
+    background-color: $primary_1;
+
+    .header-1 {
+        border: {
+            top: 4px solid black;
+            bottom: 4px solid black;
+        }
+        text-align: left;
+        background-color: $primary_3;
+        padding: 30px;
+        font-family: $myFont;
+        font-size: $myFontSize;
+    }
+
+    .image {
+        width: 400px;
+        height: 400px;
+    }
+    .image-about {
+        width: 500px;
+        height: 300px;
+    }
+
+    .footer-1 {
+        border: {
+            top: 4px solid black;
+            bottom: 4px solid black;
+        }
+        text-align: center;
+        padding: 20px;
+        font-family: $myFont;
+        font-size: 12px;
+        background-color: $primary_3;
+        color: $myColor;
+        margin-top: 20px;
+    }
+
+    .container {
+        text-align: center;
+    }
+}

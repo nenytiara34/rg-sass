@@ -1,0 +1,40 @@
+body {
+  background-color: #a2b9bc;
+}
+
+body .header-1 {
+  border-top: 4px solid black;
+  border-bottom: 4px solid black;
+  text-align: left;
+  background-color: #878f99;
+  padding: 30px;
+  font-family: Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+body .image {
+  width: 400px;
+  height: 400px;
+}
+
+body .image-about {
+  width: 500px;
+  height: 300px;
+}
+
+body .footer-1 {
+  border-top: 4px solid black;
+  border-bottom: 4px solid black;
+  text-align: center;
+  padding: 20px;
+  font-family: Helvetica, sans-serif;
+  font-size: 12px;
+  background-color: #878f99;
+  color: white;
+  margin-top: 20px;
+}
+
+body .container {
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */
